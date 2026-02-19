@@ -8,7 +8,9 @@
 session_start();
 require_once 'config/db.php';
 
+
 $isAjax = isset($_POST['ajax']) && $_POST['ajax'] === '1';
+
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $name    = trim(strip_tags($_POST['name']    ?? ''));
@@ -57,4 +59,5 @@ function sendResponse(bool $isAjax, bool $success, string $message): void {
     }
     
 }
+
 
