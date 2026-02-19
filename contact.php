@@ -55,4 +55,6 @@ function sendResponse(bool $isAjax, bool $success, string $message): void {
         $_SESSION['contact_' . ($success ? 'success' : 'error')] = $message;
         header('Location: index.php#contact');
     }
+    
 }
+
