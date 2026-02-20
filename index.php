@@ -35,6 +35,8 @@ $skillIcons = [
     <meta property="og:type" content="website">
     <title>Saiwak Ram | Full Stack Developer</title>
 
+
+
     
     <!-- Bootstrap 5 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
@@ -84,6 +86,7 @@ $skillIcons = [
         </div>
     </div>
 </nav>
+    
 
 <!-- ===== HERO SECTION ===== -->
 <section id="hero">
